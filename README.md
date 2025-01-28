@@ -1,0 +1,4 @@
+# Type Error: Argument of type 'string[]' is not assignable to parameter of type 'string'
+This repository contains a simple TypeScript program that demonstrates a common type error. The program defines a function that takes a string as an argument and returns a string. However, when the function is called, an array of strings is passed as an argument. This causes a type error because the function expects a string, but it receives an array of strings.
+
+The solution to this error is to modify the function to accept an array of strings as an argument, or to modify the code that calls the function to pass a string as an argument. The solution is provided in the file `bugSolution.ts`.
